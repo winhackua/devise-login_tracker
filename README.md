@@ -6,7 +6,7 @@ LoginTracker is a gem that tracks logins of each user.
 
 Add this line to your application's Gemfile:
 
-    gem 'devise-login_tracker' git: 'https://github.com/winhackua/devise-login_tracker.git'
+    gem 'devise-login_tracker', git: 'https://github.com/winhackua/devise-login_tracker.git'
 
 And then execute:
 
