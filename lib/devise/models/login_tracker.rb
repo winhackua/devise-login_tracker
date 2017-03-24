@@ -27,6 +27,7 @@ module Devise
       def attrs_for_login(request)
         { user_id: id, ip_address: request.remote_ip,
           user_agent: request.user_agent,
+          fingerprint: request.cookies['2dfaeb1bd6be147c176aeb44076c11e3'],
           signed_in_at: Time.now }
       end
 
